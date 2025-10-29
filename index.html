@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+window.addEventListener('error', function(e) {
+  if (e.target.tagName === 'IMG') {
+    e.target.src = 'https://via.placeholder.com/600x400?text=Image+Not+Found';
+  }
+}, true);
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ritz-Craft Homes</title>
